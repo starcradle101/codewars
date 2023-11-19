@@ -1,0 +1,44 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "Codewars solves",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starcradle101/codewars.git"
+  },
+  "keywords": [
+    "codewars",
+    "algorithm",
+    "problem_solving"
+  ],
+  "author": "Hoon Kang <dreamerdev12@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starcradle101/codewars/issues"
+  },
+  "homepage": "https://github.com/starcradle101/codewars#readme",
+  "dependencies": {
+    "prettier": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {
+      "\\.js$": "babel-jest"
+    }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
