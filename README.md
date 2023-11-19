@@ -1,2 +1,2 @@
 # codewars
-Repository storing codewars problems
+Repository storing codewars solves & tests
